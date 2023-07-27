@@ -16,10 +16,13 @@ double weighted_average(int array[], int n) {
     for (int j = i; j < n; j++) {
       if (array[j] == current_element) {
         occur++;
+      }
+    }
+    for (int j = i; j < n; j++) {
+      if (array[j] == current_element) {
         array[j] = 0;
       }
     }
-
     weighted_sum = weighted_sum + (current_element * occur) / n;
   }
 
