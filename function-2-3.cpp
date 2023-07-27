@@ -1,6 +1,9 @@
 #include <iostream>
 
 void two_five_nine(int array[], int n) {
+  if (n < 1) {
+    std::cout << "2:0;5:0;9:0;" << std::endl;
+  }
   int count_2 = 0;
   int count_5 = 0;
   int count_9 = 0;

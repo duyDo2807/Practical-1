@@ -1,12 +1,13 @@
 #include <iostream>
 
-int array_sum(int array[], int n) {
+double sum_even(double array[], int n) {
   if (n < 1) {
     return 0;
   }
-  int sum = 0;
-  for (int i = 0; i < n; i++) {
+  double sum = 0;
+  for (int i = 0; i < n; i += 2) {
     sum = sum + array[i];
   }
+
   return sum;
 }
