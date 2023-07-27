@@ -12,6 +12,7 @@ double weighted_average(int array[], int n) {
 
     int current_element = array[i];
     double occur = 0;
+    int count = 0;
 
     for (int j = i; j < n; j++) {
       if (array[j] == current_element) {
@@ -24,6 +25,7 @@ double weighted_average(int array[], int n) {
       }
     }
     weighted_sum = weighted_sum + (current_element * occur) / n;
+    count = count + occur;
   }
 
   return weighted_sum;
