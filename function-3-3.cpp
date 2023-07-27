@@ -22,7 +22,7 @@ double weighted_average(int array[], int n) {
         array[j] = 0;
       }
     }
-    weighted_sum = weighted_sum + (current_element * occur) / n;
+    weighted_sum = weighted_sum + (((current_element * occur) / n) * occur);
     count = count + occur;
   }
   if (count == 0) {
