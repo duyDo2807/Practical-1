@@ -1,12 +1,12 @@
 #include "Human.h"
 
-#include "iostream"
+#include <iostream>
 
 Human::Human(std::string name) : name(name) {}
 
 char Human::makeMove() {
   char play;
-  std::cout << "Enter Rock/Paper/Scissor: ";
+  std::cout << "Enter move: ";
   std::cin >> play;
   return play;
 }
