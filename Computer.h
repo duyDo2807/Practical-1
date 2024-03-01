@@ -5,7 +5,7 @@
 
 class Computer : public Player {
  public:
-  char makeMove() override;
+  char playMove() override;
   string getName() override;
 };
 

@@ -1,5 +1,5 @@
 #include "Computer.h"
 
-char Computer::makeMove() { return 'R'; }
+char Computer::playMove() { return 'R'; }
 
 string Computer::getName() { return "Computer"; }

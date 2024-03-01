@@ -5,7 +5,7 @@ using namespace std;
 
 Human::Human(string playerName) : name(playerName) {}
 
-char Human::makeMove() {
+char Human::playMove() {
   cout << "Enter move: ";
   char move;
   cin >> move;

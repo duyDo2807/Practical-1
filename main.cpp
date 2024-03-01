@@ -10,7 +10,7 @@ int main() {
   Computer computerPlayer;
   Referee referee;
 
-  Player* winner = referee.result(&humanPlayer, &computerPlayer);
+  Player* winner = referee.refGame(&humanPlayer, &computerPlayer);
 
   if (winner == nullptr) {
     cout << "It's a Tie." << endl;
