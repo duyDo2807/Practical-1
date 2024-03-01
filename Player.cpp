@@ -1,5 +1,5 @@
 #include "Player.h"
 
-char Player::makeMove() { return 'A'; };
+char Player::makeMove() { return 0; };
 
 string Player::getName() { return "Human"; };
