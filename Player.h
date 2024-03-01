@@ -6,7 +6,7 @@ using namespace std;
 
 class Player {
  public:
-  virtual char playMove();
+  virtual char makeMove();
   virtual string getName();
 };
 
